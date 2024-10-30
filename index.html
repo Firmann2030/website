@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portofolio.</a>
+      <nav class="navbar">  
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      
+    </header>
+
+    <section id="home" class="home">
+      <div class="home-content">
+        <h3>Halo, Saya</h3>
+        <h1>Firman Nurullah</h1>
+        <h3>Seorang <span>Pengembang web</span></h3>
+        <p>
+          Silakan jelajahi halaman ini dan temukan lebih banyak tentang saya.
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="#"><i class="bx bxl-tiktok"></i></a>
+        </div>
+        <a href="#" class="btn">Kontak Saya</a>
+      </div>
+
+
+      <div class="home-img">
+        <img src="alay.jpg" alt="" />
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h1>About Me</h1>
+      <p>Halo! Saya Firman Nurullah, seorang pengembang web yang penuh semangat dengan kecintaan pada pembuatan situs web yang menarik dan ramah pengguna. Dengan latar belakang ilmu komputer dan bertahun-tahun pengalaman dalam pengembangan front-end dan back-end, saya menikmati mengubah masalah kompleks menjadi desain yang sederhana, indah, dan intuitif. Ketika saya tidak sedang membuat kode, Anda dapat menemukan saya menjelajahi tren teknologi baru atau bepergian untuk menemukan budaya baru. Ayo terhubung dan ciptakan sesuatu yang luar biasa bersama-sama!</p>
+    </section>
+  
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="portfolio-content">
+            <div class="portfolio-item">
+              <img src="project1.png" alt="Project 1">
+              <h3>My Work</h3>
+                <p><strong>Deskripsi:</strong> Mengembangkan situs web yang ramping dan ramah pengguna dengan pemrosesan pembayaran waktu nyata, fitur pencarian lanjutan, dan desain responsif.</p>
+            </div>
+            <div class="portfolio-item">
+              <img src="project2.png" alt="Project 2">
+              <h3>Experience</h3>
+              <p><strong>Dekripsi:</strong> Situs web portofolio pribadi yang menampilkan proyek, keterampilan, dan pengalaman saya. Dirancang agar menarik secara visual dan mudah dinavigasi, dengan penekanan pada pengalaman pengguna.</p>
+            </div>
+    </section>
+  
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h1>Contact Me</h1>
+        <p>Jangan ragu untuk menghubungi saya menggunakan formulir di bawah ini. Saya akan menghubungi Anda kembali sesegera mungkin.</p>
+        
+        <div class="contact-form">
+          <form action="submit-form.php" method="post">
+            <div class="input-box">
+              <input type="text" name="name" required />
+              <label for="name">Name</label>
+            </div>
+            <div class="input-box">
+              <input type="email" name="email" required />
+              <label for="email">Email</label>
+            </div>
+            <div class="input-box">
+              <input type="text" name="subject" required />
+              <label for="subject">Subject</label>
+            </div>
+            <div class="input-box">
+              <textarea name="message" required></textarea>
+              <label for="message">Message</label>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+      
+    <script src="script.js"></script>
+  </body>
+</html>
